@@ -17,12 +17,10 @@ This app helps users manage daily tasks efficiently by adding, completing, and d
 
 ## 📂 Project Structure
 
-
-```md
-## 📂 Project Structure
-
 - index.html → Main HTML file  
 - style.css → Styling file  
-- script.js → JavaScript logic  
-- README.md → Project documentation  
+- script.js → JavaScript logic
 
+## 🌐 Live Demo
+🔗 https://shivank821.github.io/Todo_app/
+  
