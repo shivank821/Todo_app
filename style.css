@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Ponins",sans-serif;
+}
+li{
+  border: 1px solid black;
+  border-radius:5px;
+  margin-bottom:20px;
+  padding:9px;
+  color:black;
+  background: #fff;
+  width:85%;
+  font-weight:500;
+  display: flex;
+  justify-content: space-between;
+}
+li:hover{
+  background:#ccc;
+  transition: 0.5s;
+}
+#todolist li p{
+  flex-grow: 1;
+}
+#todolist{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  z-index:1000;
+}
+.btn1{
+  color:#0C9845;
+  font-weight:600;
+  cursor: pointer;
+  font-size:16px;
+  
+}
+.btn2{
+  color:#FF0606;
+  font-weight:600;
+  cursor: pointer;
+  font-size:16px;
+  padding-left:8px;
+}
+.added{
+  display: flex;
+  justify-content: center;
+
+}
+.addmsg{
+  background-color:#43A010;
+  padding:10px 20px;
+  color:white;
+  margin-bottom:16px;
+  border-radius:10px;
+  box-shadow:0px 0px 10px 5px #B3D89E;
+}
+.span{
+  padding-left:5px;
+}
+#addbtn:hover{
+  cursor: pointer;
+  background-color:#4ACF5B;
+}
+#backdiv{
+  display: flex;
+  justify-content: center;
+
+}
+#backtext{
+  position: absolute;
+  top:45%;
+  font-size:2.5rem;
+  color:#fff;
+  font-style: oblique;
+  rotate: 20deg;
+  opacity:0.5;
+  z-index:0;
+}
+@media (min-width:800px) {
+  li{
+    width:60%;
+    font-size:1.8rem;
+    padding:15px 20px;
+  }
+  #inputbox{
+    width:100%;
+    font-size:1.6rem;
+    padding:10px;
+    margin-top:50px;
+  }
+  #addbtn{
+    margin-top:15px;
+    font-size:1.5rem;
+    padding:10px 25px;
+  }
+  .btn1,.btn2{
+    font-size: 20px;
+  }
+  #backtext{
+    top:50%;
+  }
+}
