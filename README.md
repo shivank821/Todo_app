@@ -21,6 +21,3 @@ This app helps users manage daily tasks efficiently by adding, completing, and d
 - style.css → Styling file  
 - script.js → JavaScript logic
 
-## 🌐 Live Demo
-🔗 https://shivank821.github.io/Todo_app/
-  
